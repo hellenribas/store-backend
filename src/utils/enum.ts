@@ -1,0 +1,66 @@
+export const SERVER_MESSAGE_ERRORS = {
+  DEFAULT_EXCEPTION: 'Bad request',
+  NOT_FOUND: 'Não encontrado.',
+  SERVICE_UNAVAILABLE: 'Servidor indisponível.',
+  ALREADY_REGISTERED: 'Já registrado.',
+  AUTHENTICATION_FAIL: 'Falha na autenticação.',
+  UNAUTHORIZED: 'Não autorizado para essa ação.',
+  SERVICE_UNAVAILABLE_TRY_AGAIN:
+    'Servidor indisponível. Por favor, tente novamente.',
+  FORBIDDEN: 'Forbidden',
+  TOKEN_ERROR: 'Token Expirado e/ou inválido.',
+  TOKEN_MALFORMED_ERROR: 'Token malformado.',
+  TOKEN_DECODE_ERROR: 'Token inválido.',
+  USER_HAS_NO_ACCESS: 'Falha na autenticação.',
+  USER_HAS_WRONG_PASSWORD: 'Senha Inválida!',
+  PAGE_NOT_FOUND: 'Página não encontrada.',
+  USER_NOT_FOUND: 'Usuário não encontrado.',
+  USER_NOT_EMAIL_VERIFIED:
+    'O usuário não possui o email verificado, acesse o e-mail cadastrado.',
+  AREA_IS_REGISTERED: 'A área de entrega com esse alcance já foi cadastrada.',
+  PASSWORD_EXPIRED:
+    'Senha Expirada, verifique seu email para redefinir uma nova senha.',
+  USER_BLOCKED: 'Usuário bloqueado, entre em contato com o time de suporte',
+  USER_PENDING:
+    'Seu usuário ainda está inativo, acesse o seu e-mail ou entre em contato conosco.',
+  USER_DECLINED:
+    'Seu usuário ainda está recusado, acesse o seu e-mail ou entre em contato conosco.',
+  USER_DELETED: 'Seu usuário não foi encontrado, entre em contato conosco.',
+  LOGIN_EXCEEDED:
+    'Tentativas de Login excedido, enviamos e-mail para redefinição de senha.',
+  USER_OR_PASSWORD_INVALID: 'Usuário ou Senha inválido(s).',
+  USER_ALREADY_REGISTERED: 'Usuário com esse CPF ou E-mail já cadastrado.',
+  STORE_ALREADY_REGISTERED: 'O CNPJ já possui uma loja cadastrada.',
+  STORE_WITH_INCORRECT_ADDRESS: 'O endereço está incorreto para a loja',
+  STORE_NOT_FOUND: 'Loja não encontrada.',
+  SELLER_DONT_HAVE_STORE: 'O vendedor não possui uma loja ativa no momento.',
+  DOCUMENT_NUMBER_ALREADY_REGISTERED:
+    'Já registrado um cadastro para esse CPF.',
+  USER_WITHOUT_ACCESS_TO_UNIT: 'Usuário não tem acesso a esta unidade.',
+  PASSWORD_ALREADY_USED: 'Senha já utilizada anteriormente.',
+  PARAM_CANNOT_EMPTY: 'Este campo não pode ser vazio',
+  BANK_ACCOUNT_NOT_FOUND: 'Conta Bancária não encontrada.',
+  USER_PASSWORD_EQUAL_OLD_PASSWORD:
+    'Você deve usar uma senha diferente da anterior.',
+  PRODUCT_NOT_FOUND: 'Produto não encontrado.',
+  PRODUCT_NOT_ACTIVE: 'O produto não está mais ativo no momento.',
+  PRODUCT_WITHOUT_VIDEO_OR_IMAGE:
+    'É necessário vídeo e imagens para criar um produto.',
+  PRODUCT_IS_ACTIVE: 'O produto já está ativado.',
+  PRODUCT_IS_DECLINED: 'O produto já foi desaprovado.',
+  USER_IS_NOT_SELLER: 'O usuário precisa ser um vendedor para logar.',
+  USER_IS_NOT_ADMIN: 'O usuário precisa ser um admin para logar.',
+  DELIVERY_AREA_NOT_FOUND: 'Área de entrega não encontrada.',
+  USER_IS_VERIFIED: 'O e-mail já está confirmado.',
+  SELLER_IS_ACTIVE: 'O vendedor já está ativado.',
+  SELLER_IS_DECLINED: 'O vendedor já está desaprovado.',
+  SELLER_WITHOUT_PHOTO:
+    'O vendedor precisa enviar uma foto para ser cadastrado.',
+  OTP_INVALID: 'Código inválido, por favor verifique seu email.',
+  OTP_EXPIRED: 'Código expirado, por favor requisite novamente.',
+  OTP_DONT_EXISTS: 'Pedido de recuperação de senha não solicitado.',
+  PHOTO_REQUIRED: 'Foto necessária',
+  USER_IS_INACTIVATED: 'Seu usuário está inativo, entre em contato conosco.',
+  DAY_REGISTER: 'Dia de funcionamento já registrado',
+  INVALID_LOCATION: 'Localização inválida',
+};
