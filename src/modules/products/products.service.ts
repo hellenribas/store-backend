@@ -27,7 +27,7 @@ export class ProductsService {
   }
 
   productUpdate(id: string, productUpdate: UpdateProductDto) {
-    this.productModel.findOneAndUpdate(
+    return this.productModel.findOneAndUpdate(
       {
         _id: id,
       },
